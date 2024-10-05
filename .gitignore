@@ -7,9 +7,10 @@
 Temp/
 Library/
 Logs/
+.vs/
 
 # my personal build folder (you can change the name for your personal build folder to ignore it and build files):
-build/ 
+build/
 
 *.unitypackage
 *.aab
