@@ -68,3 +68,15 @@ Determine os seguintes pontos:
 Na sessão prototipação em papel do arquivo no Overleaf.
 
 Construa a prototipação de todas as fase do jogo.
+
+### Entrega 5 - Guiando o Jogador
+
+Determine pelo menos duas formas de orientação direta e duas formas de orientação indireta que terá no seu projeto.
+Dê o máximo de detalhes possível sobre como cada uma das orientações serão apresentadas para o jogador.
+
+### Entrega 6 - Teste segundo circulo.
+
+Selecione colegas de outro grupo para testar o seu jogo no estado atual.
+Utilize os métodos de observação e perguntas vistas em aula para extrair informações dos testadores em relação a impacto do jogo, possíveis bugs e melhorias.
+
+Apresente testes individuais formais e testes em grupo formais.
