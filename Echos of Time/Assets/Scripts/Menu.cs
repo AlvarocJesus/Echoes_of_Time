@@ -9,10 +9,14 @@ public class Menu : MonoBehaviour
     [SerializeField] private GameObject opcoes;
     [SerializeField] private GameObject menu;
 
+    private int oi = 0;
+    private int oi2 = 0;
+
     // Start is called before the first frame update
     void Start()
     {
         FecharOpcoes();
+        
     }
 
     // Update is called once per frame
