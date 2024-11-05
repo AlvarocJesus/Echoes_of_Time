@@ -22,7 +22,7 @@ public class Enemy : MonoBehaviour
     {
         transform.Translate(Vector2.right * speed * Time.deltaTime);
         groud = Physics2D.Linecast(GraudCheck.position, transform.position, layer);
-        Debug.Log(groud);
+        //Debug.Log(groud);
 
         if(groud == false){
             speed *= -1;

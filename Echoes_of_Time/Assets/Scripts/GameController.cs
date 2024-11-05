@@ -11,9 +11,11 @@ public class GameController : MonoBehaviour
     public Text txtLives;
     public int lives = 3;
     public int score;  // Campo para armazenar o score
-
     public Text tScore;
-    
+
+    // Novo campo para armazenar o estado do amuleto
+    public bool amuletoColetado = false;
+
     void Awake()
     {
         if(gc == null)
@@ -23,22 +25,24 @@ public class GameController : MonoBehaviour
         }
         else if(gc != this)
         {
-        Destroy(gameObject);
+            Destroy(gameObject);
         }
         RefreshUI();
     }
+
     public void SetLives(int life)
     {
         lives += life;
         if(lives >= 0)
-        RefreshUI();
+            RefreshUI();
     }
 
-      public void AddScore(int points)
+    public void AddScore(int points)
     {
         score += points;
         RefreshUI(); 
     }
+
     public void RefreshUI()
     {
         txtCoins.text = coins.ToString();
@@ -46,3 +50,4 @@ public class GameController : MonoBehaviour
         tScore.text = score.ToString();
     }
 }
+
