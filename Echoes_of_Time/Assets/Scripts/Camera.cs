@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement; // Adicione isso para gerenciar as cenas
 
 public class Camera : MonoBehaviour
 {
@@ -11,10 +12,32 @@ public class Camera : MonoBehaviour
 
     private void Awake()
     {
-        // Tente encontrar o jogador na cena
+        // Singleton para garantir que apenas uma instância da câmera exista
+        if (FindObjectsOfType<Camera>().Length > 1)
+        {
+            Destroy(gameObject); // Destrói a nova instância
+        }
+        else
+        {
+            DontDestroyOnLoad(gameObject); // Não destrói ao trocar de cena
+            // Tente encontrar o jogador na cena
+            if (Player == null)
+            {
+                Player = GameObject.FindWithTag("Player")?.transform;
+            }
+
+            // Adiciona o método para ouvir a troca de cena
+            SceneManager.sceneLoaded += OnSceneLoaded;
+        }
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        // Tente encontrar o jogador na nova cena
+        Player = GameObject.FindWithTag("Player")?.transform;
         if (Player == null)
         {
-            Player = GameObject.FindWithTag("Player").transform;
+            Debug.LogWarning("Player não encontrado na nova cena!");
         }
     }
 
@@ -34,5 +57,11 @@ public class Camera : MonoBehaviour
         {
             Debug.LogWarning("Player não encontrado! Verifique se o objeto do jogador tem a tag 'Player'.");
         }
+    }
+
+    private void OnDestroy()
+    {
+        // Remove o listener quando a câmera é destruída
+        SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 }

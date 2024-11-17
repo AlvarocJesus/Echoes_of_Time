@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Coins
   - Enemy
+  - Checkpoint
+  - Boss
+  - robot
+  - kina
+  - The ark
   layers:
   - Default
   - TransparentFX

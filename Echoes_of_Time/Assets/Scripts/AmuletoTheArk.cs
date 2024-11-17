@@ -26,7 +26,7 @@ public class AmuletoTheArk : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log("Update chamado! Amuleto coletado: " + amuletoColetado); // Log para verificar estado
+        //Debug.Log("Update chamado! Amuleto coletado: " + amuletoColetado); // Log para verificar estado
 
         if (amuletoColetado == true)  // Verifica se o amuleto foi coletado
         {

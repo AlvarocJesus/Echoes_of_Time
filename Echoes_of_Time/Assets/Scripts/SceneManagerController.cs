@@ -21,12 +21,16 @@ public class SceneManagerController : MonoBehaviour
 
     public void TrocarCena(string nomeCena)
     {
-        // Destroi o objeto do jogador antes de trocar a cena
+        // Encontra o jogador ao trocar de cena
         GameObject player = GameObject.FindWithTag("Player");
         if (player != null)
         {
-            Destroy(player);
-            Debug.Log("Jogador destruído antes de trocar de cena.");
+            // Reinicia o jogador antes de trocar a cena
+            player.GetComponent<LifeScript>().ResetPlayer(); // Chama o método para reiniciar o jogador
+        }
+        else
+        {
+            Debug.LogWarning("Jogador não encontrado ao tentar trocar de cena.");
         }
 
         // Carrega a nova cena
