@@ -15,7 +15,7 @@ C:/Users/adoro/Documents/GitHub/Echos_of_Time/Echoes_of_Time
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60187
+64536
 Successfully changed project path to: C:/Users/adoro/Documents/GitHub/Echos_of_Time/Echoes_of_Time
 C:/Users/adoro/Documents/GitHub/Echos_of_Time/Echoes_of_Time
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ C:/Users/adoro/Documents/GitHub/Echos_of_Time/Echoes_of_Time
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [10900]  Target information:
+Player connection [17032]  Target information:
 
-Player connection [10900]  * "[IP] 192.168.15.4 [Port] 0 [Flags] 2 [Guid] 4162813527 [EditorId] 4162813527 [Version] 1048832 [Id] WindowsEditor(7,Renan-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [17032]  * "[IP] 192.168.15.4 [Port] 0 [Flags] 2 [Guid] 2486185547 [EditorId] 2486185547 [Version] 1048832 [Id] WindowsEditor(7,Renan-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [10900] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [10900] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17032] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [17032] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 29.56 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 30.50 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.43f1 (85497d293fa1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.43f1/Editor/Data/Resources/UnitySubsystems
@@ -72,46 +72,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.43f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.43f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.43f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56300
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.033615 seconds.
-- Loaded All Assemblies, in  0.439 seconds
+Registered in 0.031308 seconds.
+- Loaded All Assemblies, in  0.475 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.249 seconds
-Domain Reload Profiling: 680ms
-	BeginReloadAssembly (152ms)
+- Finished resetting the current domain, in  0.284 seconds
+Domain Reload Profiling: 748ms
+	BeginReloadAssembly (169ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (33ms)
+	RebuildCommonClasses (32ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (102ms)
-	LoadAllAssembliesAndSetupDomain (135ms)
-		LoadAssemblies (145ms)
+	initialDomainReloadingComplete (105ms)
+	LoadAllAssembliesAndSetupDomain (150ms)
+		LoadAssemblies (159ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (131ms)
-			TypeCache.Refresh (130ms)
-				TypeCache.ScanAssembly (117ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (145ms)
+				TypeCache.ScanAssembly (131ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (250ms)
+	FinalizeReload (284ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (208ms)
+		SetupLoadedEditorAssemblies (237ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (19ms)
+			InitializePlatformSupportModulesInManaged (22ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (137ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
+			ProcessInitializeOnLoadAttributes (157ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,7 +120,7 @@ Domain Reload Profiling: 680ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.778 seconds
+- Loaded All Assemblies, in  1.186 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -128,182 +128,48 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.634 seconds
-Domain Reload Profiling: 1395ms
-	BeginReloadAssembly (164ms)
+- Finished resetting the current domain, in  0.879 seconds
+Domain Reload Profiling: 2047ms
+	BeginReloadAssembly (231ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (17ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (62ms)
-	LoadAllAssembliesAndSetupDomain (498ms)
-		LoadAssemblies (464ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (801ms)
+		LoadAssemblies (702ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (146ms)
-			TypeCache.Refresh (124ms)
-				TypeCache.ScanAssembly (110ms)
-			ScanForSourceGeneratedMonoScriptInfo (17ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (634ms)
+		AnalyzeDomain (260ms)
+			TypeCache.Refresh (222ms)
+				TypeCache.ScanAssembly (199ms)
+			ScanForSourceGeneratedMonoScriptInfo (30ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (879ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (520ms)
+		SetupLoadedEditorAssemblies (722ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (104ms)
-			ProcessInitializeOnLoadAttributes (346ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
-			AfterProcessingInitializeOnLoad (23ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (494ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (32ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 13.10 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 18.04 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4431 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 40 unused Assets / (241.2 KB). Loaded Objects now: 4898.
+Unloading 40 unused Assets / (241.4 KB). Loaded Objects now: 4898.
 Memory consumption went from 152.1 MB to 151.9 MB.
-Total: 3.282100 ms (FindLiveObjects: 0.418000 ms CreateObjectMapping: 0.129800 ms MarkObjects: 2.569500 ms  DeleteObjects: 0.163800 ms)
+Total: 4.318100 ms (FindLiveObjects: 0.266400 ms CreateObjectMapping: 0.145900 ms MarkObjects: 3.723300 ms  DeleteObjects: 0.181600 ms)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.510 seconds
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.724 seconds
-Domain Reload Profiling: 2218ms
-	BeginReloadAssembly (1009ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (824ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (389ms)
-		LoadAssemblies (492ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (12ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (724ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (563ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (117ms)
-			ProcessInitializeOnLoadAttributes (374ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
-			AfterProcessingInitializeOnLoad (25ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 14.44 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4413 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (213.4 KB). Loaded Objects now: 4903.
-Memory consumption went from 148.3 MB to 148.1 MB.
-Total: 3.795200 ms (FindLiveObjects: 0.383300 ms CreateObjectMapping: 0.120300 ms MarkObjects: 3.138800 ms  DeleteObjects: 0.152300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.632 seconds
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.723 seconds
-Domain Reload Profiling: 2343ms
-	BeginReloadAssembly (184ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (344ms)
-		LoadAssemblies (443ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (1724ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (637ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (136ms)
-			ProcessInitializeOnLoadAttributes (418ms)
-			ProcessInitializeOnLoadMethodAttributes (33ms)
-			AfterProcessingInitializeOnLoad (28ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 16.21 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4413 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (213.7 KB). Loaded Objects now: 4907.
-Memory consumption went from 148.3 MB to 148.1 MB.
-Total: 3.539500 ms (FindLiveObjects: 0.295200 ms CreateObjectMapping: 0.145300 ms MarkObjects: 2.950300 ms  DeleteObjects: 0.148200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
@@ -320,79 +186,1878 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2591.951050 seconds.
-  path: Assets/Scenes/Fase2.unity
-  artifactKey: Guid(8c1fc5ee06c9e064a8c71b94a3b63f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fase2.unity using Guid(8c1fc5ee06c9e064a8c71b94a3b63f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a076417046caaecc1a775a51c386b7b5') in 0.002362 seconds
+  Time since last request: 3765.146050 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+  artifactKey: Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt using Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '13078d8dfdfe790a2d365c0c5b877bdd') in 0.073368 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 100.950181 seconds.
-  path: Assets/Scenes/Fase3.unity
-  artifactKey: Guid(f24bf1a67e2d0a0498b2698b440ee07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fase3.unity using Guid(f24bf1a67e2d0a0498b2698b440ee07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3763343c71e5d36dc1125022645e2928') in 0.000507 seconds
+  Time since last request: 0.000037 seconds.
+  path: Assets/Scripts/Enemy.cs
+  artifactKey: Guid(6cc8504ee93ed364d982bfe28a387003) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Enemy.cs using Guid(6cc8504ee93ed364d982bfe28a387003) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '99b1cbe30e163eecc94a40d2416fa97f') in 0.034391 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 129.744951 seconds.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plataforma 2D/Mask Dude/Walk.png
+  artifactKey: Guid(cf9d0ce3766fcb94d923d90f4f31ecfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Mask Dude/Walk.png using Guid(cf9d0ce3766fcb94d923d90f4f31ecfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6bd27686d78dd98f40400c62927629af') in 0.071228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e43c69db5729f7a490e2edf90db74e11') in 0.013188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefabs/Coin.prefab
+  artifactKey: Guid(0ad45cbeb3bd89d44b3da56b739fde6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Coin.prefab using Guid(0ad45cbeb3bd89d44b3da56b739fde6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '92b362e21a1c1efd32f8f80cee09e0d7') in 0.035699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+  artifactKey: Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader using Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9105051e0238c3c0ec63fe8f94c586ac') in 0.009644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Animation/LIFE/Life.controller
+  artifactKey: Guid(dc6c3f1fc8fada64185d9405076b0441) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animation/LIFE/Life.controller using Guid(dc6c3f1fc8fada64185d9405076b0441) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7032dbd4c90a8e6ab15df7a4eac63a19') in 0.010983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Animation/LIFE/New Animation.anim
+  artifactKey: Guid(7ca9702718cb3ef41b2ef0c9a74f53e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animation/LIFE/New Animation.anim using Guid(7ca9702718cb3ef41b2ef0c9a74f53e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e835d55873d49d255ef267884e852646') in 0.017066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/level-passed-143039.mp3
+  artifactKey: Guid(c7f3239e664c8904ca247e2d3935433b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/level-passed-143039.mp3 using Guid(c7f3239e664c8904ca247e2d3935433b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c362f1ab0397858257311aa7ca47183e') in 0.035627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/background3-720.png
+  artifactKey: Guid(d1b374027b9f1ff4ca909dd3c1c86f0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/background3-720.png using Guid(d1b374027b9f1ff4ca909dd3c1c86f0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2b98c5df88dddb26fdf7583ad39f6f69') in 0.015225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
   path: Assets/Scenes/Inicio.unity
-  artifactKey: Guid(5a8891dc41021034e918ddb491885077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Inicio.unity using Guid(5a8891dc41021034e918ddb491885077) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e04b566b262a8d2f4bdeadfdfd29059a') in 0.000541 seconds
+  artifactKey: Guid(5a8891dc41021034e918ddb491885077) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Inicio.unity using Guid(5a8891dc41021034e918ddb491885077) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '585a650ddff56d096484645749fd4aab') in 0.010905 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 19.291276 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '140811f36f59a001aff69eeb460b2da0') in 0.000581 seconds
+  Time since last request: 0.000016 seconds.
+  path: Assets/Animation/Enemy/Boss.controller
+  artifactKey: Guid(fa03bab859da9f94fb9c99b09c7b3ff3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animation/Enemy/Boss.controller using Guid(fa03bab859da9f94fb9c99b09c7b3ff3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3db4ddb0b5b93ccae489a614935a3581') in 0.011956 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 1.407910 seconds.
-  path: Assets/Scenes/Fase2.unity
-  artifactKey: Guid(8c1fc5ee06c9e064a8c71b94a3b63f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fase2.unity using Guid(8c1fc5ee06c9e064a8c71b94a3b63f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd303acc3fee0ff1954c12facf0a80570') in 0.000520 seconds
+  Time since last request: 0.000015 seconds.
+  path: Assets/Animation/Enemy/RunPresent (32x32) 1_0 2.controller
+  artifactKey: Guid(38a1803a7ac7dea43ad285dd718651bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animation/Enemy/RunPresent (32x32) 1_0 2.controller using Guid(38a1803a7ac7dea43ad285dd718651bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00e888d9dac6a934763a0d82b4b1745a') in 0.011349 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 6
 ========================================================================
 Received Import Request.
-  Time since last request: 11.824071 seconds.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scripts/MenuUi.cs
+  artifactKey: Guid(fa18fdc74e08e544ca0e94c40dc22f82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/MenuUi.cs using Guid(fa18fdc74e08e544ca0e94c40dc22f82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '163672dc3530e981c096c7bab3dad037') in 0.008405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scripts/Coin.cs
+  artifactKey: Guid(b8e6749b0a587044d982c4a0841d85f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Coin.cs using Guid(b8e6749b0a587044d982c4a0841d85f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '49e6552bbd0b42b2fdf40a70a170ef51') in 0.008493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/1.1 Colinas Verdejantes (Green Zone Hill) _ OST Lenda do Herói [ ezmp3.cc ].mp3
+  artifactKey: Guid(ef794bb492672b54397df8167aabfdf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/1.1 Colinas Verdejantes (Green Zone Hill) _ OST Lenda do Herói [ ezmp3.cc ].mp3 using Guid(ef794bb492672b54397df8167aabfdf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f16d9656835585d5446e0a4637ab7fa7') in 0.041576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a49bdeff4571f80affa5b57d3d598d5a') in 0.016636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plataforma 2D/Mask Dude/Idle.png
+  artifactKey: Guid(74c68fcf49c1d9b408a1d9d91b850632) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Mask Dude/Idle.png using Guid(74c68fcf49c1d9b408a1d9d91b850632) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '79a8be4ee416b00cac35a3418247691f') in 0.025065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Animation/Enemy/Robot.anim
+  artifactKey: Guid(47275fc970033644d925b8058d5700c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animation/Enemy/Robot.anim using Guid(47275fc970033644d925b8058d5700c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '38667a507a602f01567363785791453c') in 0.011531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2f14564f01788a24db0b1a3c99ca8cce') in 0.051794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2.2 Selva De Panthanum (Panthanum Swamp) _ OST Lenda do Herói [ ezmp3.cc ].mp3
+  artifactKey: Guid(0b7ed96c8bea2d14da24729a2ecd9de8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2.2 Selva De Panthanum (Panthanum Swamp) _ OST Lenda do Herói [ ezmp3.cc ].mp3 using Guid(0b7ed96c8bea2d14da24729a2ecd9de8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8f1370010580edd11aa07c86c7abcf37') in 0.034532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Q de Blitzcrank (Sound Effect) V2 - League of Legends_7veHmbzDeJE (mp3cut.net).mp3
+  artifactKey: Guid(fbd5f32e32278b543be04f9c41d34d96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Q de Blitzcrank (Sound Effect) V2 - League of Legends_7veHmbzDeJE (mp3cut.net).mp3 using Guid(fbd5f32e32278b543be04f9c41d34d96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1aec10b925b05ed6377c1e6d2d179322') in 0.036403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Animation/Enemy/RunPAst (32x32) 1_0 1.controller
+  artifactKey: Guid(56667199dcf1f5845bb89aca20d83311) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animation/Enemy/RunPAst (32x32) 1_0 1.controller using Guid(56667199dcf1f5845bb89aca20d83311) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '54764d3f4688d649debdef51f36d276f') in 0.008943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/pngwing.com.png
+  artifactKey: Guid(a0ff27ae130121d4b98bd2b67f27599d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/pngwing.com.png using Guid(a0ff27ae130121d4b98bd2b67f27599d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '74a4ac2cde6169b392777107116660f6') in 0.017481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/StardewValley.ttf
+  artifactKey: Guid(e6b0dbaf8cbf9894f8f569b5f4a2fba3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/StardewValley.ttf using Guid(e6b0dbaf8cbf9894f8f569b5f4a2fba3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '36fbf9246db14eb0e0fabe12f9cf2ace') in 0.015281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scripts/SceneManagerController.cs
+  artifactKey: Guid(236f0ffa5f7e3674c84c4424f5012448) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/SceneManagerController.cs using Guid(236f0ffa5f7e3674c84c4424f5012448) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c1db41678f102c870ec7f03de5baa8d1') in 0.009281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scripts/Projectile.cs
+  artifactKey: Guid(8658baee9ad6b8842b4c49cac5744aa3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Projectile.cs using Guid(8658baee9ad6b8842b4c49cac5744aa3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ebc0ffbf93c62b6bd5df0ef223847a4d') in 0.011448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Animation/The ark idle.anim
+  artifactKey: Guid(4633f360e9ded034abdfef488d69cc35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animation/The ark idle.anim using Guid(4633f360e9ded034abdfef488d69cc35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '83a2c40789adb61dc9988624d2b3e060') in 0.012132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3.1 Caverna Dummal (Deevil Cavern) _ OST Lenda do Herói [ ezmp3.cc ].mp3
+  artifactKey: Guid(e547c1a37fc974342b58c2303309e30d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3.1 Caverna Dummal (Deevil Cavern) _ OST Lenda do Herói [ ezmp3.cc ].mp3 using Guid(e547c1a37fc974342b58c2303309e30d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5abe29084e6016e1679873e245b5748d') in 0.040119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
   path: Assets/Scenes/GameOver.unity
-  artifactKey: Guid(944136ae4958fa84c8b77405730dfb3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameOver.unity using Guid(944136ae4958fa84c8b77405730dfb3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '121f4e1b439d2a594c49cc7cdee55191') in 0.000552 seconds
+  artifactKey: Guid(944136ae4958fa84c8b77405730dfb3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/GameOver.unity using Guid(944136ae4958fa84c8b77405730dfb3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2f677f153ac25703e7dff2063ac7c56e') in 0.008831 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 11.73 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7 unused Assets / (196.3 KB). Loaded Objects now: 4907.
-Memory consumption went from 79.5 MB to 79.3 MB.
-Total: 2.689000 ms (FindLiveObjects: 0.254400 ms CreateObjectMapping: 0.096600 ms MarkObjects: 2.221600 ms  DeleteObjects: 0.115900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scripts/LifeScript.cs
+  artifactKey: Guid(ac42b6626e9947c46a9883ea8340554a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/LifeScript.cs using Guid(ac42b6626e9947c46a9883ea8340554a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '55d24571545d2765b1f0a1d723ee9093') in 0.008941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Animation/Player_Morte.anim
+  artifactKey: Guid(172800a657a0d174ab765a505fe8c01a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animation/Player_Morte.anim using Guid(172800a657a0d174ab765a505fe8c01a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '79bfec008fbd2b285bbf5dd74c588a9b') in 0.008794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b8953e29a25a500e3e4a2e4589a3f664') in 0.012299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Thwomp_Kp3wnFSK_aU.mp3
+  artifactKey: Guid(d6ce9e82f0d9b1b4a9fbfbe8d4e7281a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Thwomp_Kp3wnFSK_aU.mp3 using Guid(d6ce9e82f0d9b1b4a9fbfbe8d4e7281a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '873c755337b4cf0888deae9af052abe5') in 0.039512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5d9a7030c2bb3c71bb889f3e1f6f50a4') in 0.013696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0046.png
+  artifactKey: Guid(3d4da8346524ef34b9e1d99535757dbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0046.png using Guid(3d4da8346524ef34b9e1d99535757dbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '27b05ee3f6ed669553c3ce02888176fb') in 0.020395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0025.png
+  artifactKey: Guid(f51699dd9b8e19b43b2d0ad7e5935996) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0025.png using Guid(f51699dd9b8e19b43b2d0ad7e5935996) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a71677937b2885e4c17d7c996dd8cba5') in 0.018414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0048.png
+  artifactKey: Guid(f370cf82a5410d6498949b45624d58ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0048.png using Guid(f370cf82a5410d6498949b45624d58ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd967fb6485cf8e49dd47d03d87987185') in 0.020111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0072.png
+  artifactKey: Guid(998088be40b9ba649830d51d641843a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0072.png using Guid(998088be40b9ba649830d51d641843a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '94cf8250b03ad714b4f9fdc35d431502') in 0.017088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0039.png
+  artifactKey: Guid(25c11138dab31ae4e9d7368ebd30f19a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0039.png using Guid(25c11138dab31ae4e9d7368ebd30f19a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3d66205678e5a80b326eb48797934068') in 0.020500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plataforma 2D/Cenário/BG/Cave.png
+  artifactKey: Guid(5dbfad7bd28efe3489ea47790d0351c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/BG/Cave.png using Guid(5dbfad7bd28efe3489ea47790d0351c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '146458f8ca8482f7f1a1eec11391e56f') in 0.015334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0008.png
+  artifactKey: Guid(f1cc6b6950e0e344cbc4a3000aef1a42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0008.png using Guid(f1cc6b6950e0e344cbc4a3000aef1a42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f0c9045c30087a87200868862e604159') in 0.021122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '794b37374a60db09bde846585ef011d4') in 0.020772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plataforma 2D/Cenário/BG/Cave_instru.png
+  artifactKey: Guid(8f9ad7c135157364dbde4e2acac8c6aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/BG/Cave_instru.png using Guid(8f9ad7c135157364dbde4e2acac8c6aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1be64d72360430ec36ae94d97b86d721') in 0.020949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0027.png
+  artifactKey: Guid(29a326f68077955488a7c83005ff0797) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0027.png using Guid(29a326f68077955488a7c83005ff0797) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'df0366b1ca1eff4eb13e408947102f69') in 0.017105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0001.png
+  artifactKey: Guid(735237015a587a54591e5ccb541d1f02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0001.png using Guid(735237015a587a54591e5ccb541d1f02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '54eec64f57302cdccbf862b47e46e5d8') in 0.018981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0058.png
+  artifactKey: Guid(f205ffadfe163654dbadf8e355442ca2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0058.png using Guid(f205ffadfe163654dbadf8e355442ca2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a04367bcb230657e2d3df590cd3d0fb3') in 0.018175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0036.png
+  artifactKey: Guid(e8a6b00f75c57014baf5766d4fde4a48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0036.png using Guid(e8a6b00f75c57014baf5766d4fde4a48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a250a3fee1e19982cbeb7ee4fda8b964') in 0.018515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0042.png
+  artifactKey: Guid(89f350a9d7e595a4595c131f2f027991) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0042.png using Guid(89f350a9d7e595a4595c131f2f027991) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ce8c4efe428a0734fa5b2f08b4906f46') in 0.019428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0040.png
+  artifactKey: Guid(eab6dbccf5fd6a642a75ecf8238b553a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0040.png using Guid(eab6dbccf5fd6a642a75ecf8238b553a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b43d7eac2f089f9040267af632643a33') in 0.020637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0073.png
+  artifactKey: Guid(a7eb4c68957bcc641944af760ef581ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0073.png using Guid(a7eb4c68957bcc641944af760ef581ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6abdddc157bf93185652ad5b407605a2') in 0.019925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0043.png
+  artifactKey: Guid(9574366d7840bd8428714280e4d21bee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0043.png using Guid(9574366d7840bd8428714280e4d21bee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '386e8fc4323aaf85bc310132fbaa651c') in 0.016143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0010.png
+  artifactKey: Guid(902eb39fd858fee4f982d8462445befc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0010.png using Guid(902eb39fd858fee4f982d8462445befc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4628440ac0619a3baacc4d2c44f26c60') in 0.021398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0074.png
+  artifactKey: Guid(9636553cb09f04b4ebe1848e0b6a7d7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0074.png using Guid(9636553cb09f04b4ebe1848e0b6a7d7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e855628034e8ef6fffc9b5bb6945162b') in 0.016926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0044.png
+  artifactKey: Guid(3c22dd1f3a84b144fb897972488a22d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0044.png using Guid(3c22dd1f3a84b144fb897972488a22d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '38f746c09196711e60575b45d4d57619') in 0.021450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0011.png
+  artifactKey: Guid(cf09ff038145bac43a9af5d4b042ff8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0011.png using Guid(cf09ff038145bac43a9af5d4b042ff8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ee7a68a09ae345c444ebaa1e4f9e9567') in 0.024729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '14677aaceb0fa09a5ae0b4ca4e5ec2fd') in 0.008794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0005.png
+  artifactKey: Guid(fd58321c69c0cef4ba52777ce84b6108) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0005.png using Guid(fd58321c69c0cef4ba52777ce84b6108) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7182c7f05be3da5e24cfda890c8d1244') in 0.020993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plataforma 2D/Cenário/BG/Futuro.png
+  artifactKey: Guid(c68a640af420d1344afef0be6469715f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/BG/Futuro.png using Guid(c68a640af420d1344afef0be6469715f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e5215dbb3b6c50340d997c599819c56f') in 0.020458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0041.png
+  artifactKey: Guid(ecf9b40a0d301af4da8f8241eb9ce53b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0041.png using Guid(ecf9b40a0d301af4da8f8241eb9ce53b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '96562dda35bb3a31dcecaf9966ce6f8c') in 0.020530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/Gold_25.png
+  artifactKey: Guid(c4029ac7506d3cb4fb86bda337e2142f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/Gold_25.png using Guid(c4029ac7506d3cb4fb86bda337e2142f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '410af203d01df5a0454ed8aa088fcaa1') in 0.023088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_1.asset
+  artifactKey: Guid(5f03fb9297e450a45a3e456fe4d98423) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_1.asset using Guid(5f03fb9297e450a45a3e456fe4d98423) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '91e4147b76426de6b432f01669074b8d') in 0.013860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plataforma 2D/Cenário/Future/CaoFuturo_3.asset
+  artifactKey: Guid(b25a47ab2be26f848afc4b75afb88e99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Future/CaoFuturo_3.asset using Guid(b25a47ab2be26f848afc4b75afb88e99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e97d2fd148abee5bef6e13c12a0d7642') in 0.011051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plataforma 2D/Cenário/Future/CaoFuturo_2.asset
+  artifactKey: Guid(3aa9a91ba7ee2c14883bd24c5e204c55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Future/CaoFuturo_2.asset using Guid(3aa9a91ba7ee2c14883bd24c5e204c55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '27ffc996a536f0c224b421e298286414') in 0.013941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_104.asset
+  artifactKey: Guid(e03129bbdffe6ff439e576b538d88021) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_104.asset using Guid(e03129bbdffe6ff439e576b538d88021) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '195f58f4176a4b2ffb763f07c98220b5') in 0.014111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_106.asset
+  artifactKey: Guid(3f45710363ed8db45b69521d4bb7256d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_106.asset using Guid(3f45710363ed8db45b69521d4bb7256d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3e82aa0d04a8ecec5d4c5bda30f497ad') in 0.013213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plataforma 2D/Cenário/Future/506-0.png
+  artifactKey: Guid(328b963ee44f281418790ac781e01222) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Future/506-0.png using Guid(328b963ee44f281418790ac781e01222) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7b924d0aba3c12dc537a60f27b040277') in 0.015321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/Gold_29.png
+  artifactKey: Guid(ccc4b3470b80cab418d12fb99d3745e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/Gold_29.png using Guid(ccc4b3470b80cab418d12fb99d3745e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5f12ac1e46bda489a92fc4c0071be9cc') in 0.022827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_111.asset
+  artifactKey: Guid(e27d89f5785b2494dbeac4581cb9c5bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_111.asset using Guid(e27d89f5785b2494dbeac4581cb9c5bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '18fde645fe6779f0d353ce5f313a110d') in 0.010258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_108.asset
+  artifactKey: Guid(5eb03f78481df19438945d383a623678) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_108.asset using Guid(5eb03f78481df19438945d383a623678) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8eca81c3bc40eb60cc39e6dc5ea17857') in 0.011685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_110.asset
+  artifactKey: Guid(c9853866acc402a4bbe521fa0b3e0d2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_110.asset using Guid(c9853866acc402a4bbe521fa0b3e0d2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '976fe35ecf4a79550842f9972931e5c3') in 0.012763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0080.png
+  artifactKey: Guid(95f9863c0097f704aafd17f70d231f85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0080.png using Guid(95f9863c0097f704aafd17f70d231f85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b1ac5fb5f53cb04800f425174deb9b3f') in 0.020626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plataforma 2D/Cenário/Future/CaoFuturo_13.asset
+  artifactKey: Guid(c0145a46feccaa349a2bceb809619546) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Future/CaoFuturo_13.asset using Guid(c0145a46feccaa349a2bceb809619546) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '026f47f9b15c24c513eee311fad266d6') in 0.011837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0076.png
+  artifactKey: Guid(4b50de7934ce9fb4fb2b378fa11c6807) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0076.png using Guid(4b50de7934ce9fb4fb2b378fa11c6807) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '26b0390518a3c75b779af075d4af37a3') in 0.017375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plataforma 2D/Cenário/Future/CaoFuturo_6.asset
+  artifactKey: Guid(64b4391f15db2e047bf2433cf08bd4b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Future/CaoFuturo_6.asset using Guid(64b4391f15db2e047bf2433cf08bd4b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '176f311ae3617ec45baa3c810bf03816') in 0.012192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_100.asset
+  artifactKey: Guid(83b35946e01633c46b6b5c549c9904c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_100.asset using Guid(83b35946e01633c46b6b5c549c9904c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3a1635c051669531661dcbafec8fe01e') in 0.010173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Plataforma 2D/Cenário/Future/604-1.png
+  artifactKey: Guid(157a8db5b4cd08b48a533a82de8aa28a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Future/604-1.png using Guid(157a8db5b4cd08b48a533a82de8aa28a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5cd99ff07f6971cce1808d5c93bc1795') in 0.020686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_107.asset
+  artifactKey: Guid(856876fe886e4534eb21176be508883f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_107.asset using Guid(856876fe886e4534eb21176be508883f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a8b60c895060bbad6cd8d5952170a8b9') in 0.010807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_109.asset
+  artifactKey: Guid(050e53989ab556b4cb47105b6438fcb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_109.asset using Guid(050e53989ab556b4cb47105b6438fcb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cac05d339ca0f4db820757cce45a3737') in 0.010381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/OverWorld.prefab
+  artifactKey: Guid(b185727822e8c6a4aa907124681649d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/OverWorld.prefab using Guid(b185727822e8c6a4aa907124681649d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'eef6b724c4e1a202f868a3e79983ea07') in 0.011109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_105.asset
+  artifactKey: Guid(6f1728fc42455d44c99ef3f18ee3f5cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_105.asset using Guid(6f1728fc42455d44c99ef3f18ee3f5cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3464fe3f749096c56e74ff202237c1d3') in 0.011310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plataforma 2D/Cenário/Future/489-0.png
+  artifactKey: Guid(fd81329ee0184ad40b9bbd984f5c4f88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Future/489-0.png using Guid(fd81329ee0184ad40b9bbd984f5c4f88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ee14e72471af3cc4c18ef49684ba27da') in 0.013913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0006.png
+  artifactKey: Guid(024562b99fa9e0a42b5d2db2af03c8f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0006.png using Guid(024562b99fa9e0a42b5d2db2af03c8f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '46ec81a841943deefd9d10deceb282fa') in 0.016083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0069.png
+  artifactKey: Guid(5df2e7a3f8cf21f48b7309ffd724660a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0069.png using Guid(5df2e7a3f8cf21f48b7309ffd724660a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3af0a3ea51215935305ed96d1fdd3092') in 0.020362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0062.png
+  artifactKey: Guid(8ceb523efd66a644a91adf6207a327f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0062.png using Guid(8ceb523efd66a644a91adf6207a327f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a2e2b15d974eb2f57da3c61d435a8856') in 0.022097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0055.png
+  artifactKey: Guid(bc1d81a1b229fe54ba64b3d6e44fb836) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0055.png using Guid(bc1d81a1b229fe54ba64b3d6e44fb836) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '45fdcaddad73a9bbf743f1dfe0cf73f2') in 0.016006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0004.png
+  artifactKey: Guid(824e34af7d1ae284880df378f97478b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0004.png using Guid(824e34af7d1ae284880df378f97478b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e4eaf563a011ee562ba6830dd6b0e221') in 0.021943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0018.png
+  artifactKey: Guid(2db88a82c6da7f94e91eedc2e565b63b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0018.png using Guid(2db88a82c6da7f94e91eedc2e565b63b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b49f0a44051e04f1db75229f319aacca') in 0.020571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0071.png
+  artifactKey: Guid(2134cc101e67b424c9b782bc7b8d9fc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0071.png using Guid(2134cc101e67b424c9b782bc7b8d9fc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3d4af0bab8a91bd37fc250d8a7e78973') in 0.019294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0009.png
+  artifactKey: Guid(00e4be605f28d51498c51d48a495022c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0009.png using Guid(00e4be605f28d51498c51d48a495022c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dc7df666b7a43a0e313b472aec36f213') in 0.016574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0029.png
+  artifactKey: Guid(ebc4e4773afaf7a46839ec076c425060) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0029.png using Guid(ebc4e4773afaf7a46839ec076c425060) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6e12abda45784850064b73cbd571e365') in 0.019749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plataforma 2D/Cenário/Future/CaoFuturo_10.asset
+  artifactKey: Guid(0b6c5bd1a9be21a4bb83487407c0832c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Future/CaoFuturo_10.asset using Guid(0b6c5bd1a9be21a4bb83487407c0832c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'abca764ce3371d67f6b8fbd819347ab1') in 0.013978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/Gold_28.png
+  artifactKey: Guid(1ca81e0ff610e634390acf53f0f079fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/Gold_28.png using Guid(1ca81e0ff610e634390acf53f0f079fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cef41df46afe2a3e3bdbdb47352db6ea') in 0.021861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_15.asset
+  artifactKey: Guid(b92f9f65cd4084249b553aaff62a09b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_15.asset using Guid(b92f9f65cd4084249b553aaff62a09b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c1e1adff979478422d96077e3eeb2f1a') in 0.011327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_169.asset
+  artifactKey: Guid(9f1c77e775aa13e42be011799141fedf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_169.asset using Guid(9f1c77e775aa13e42be011799141fedf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8abd946bf1a13bc761ebe34df2e463fe') in 0.009997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_171.asset
+  artifactKey: Guid(d13e788794395a140bb517693b95bf21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_171.asset using Guid(d13e788794395a140bb517693b95bf21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '56586630bbc083457b93d3c414e1bca5') in 0.011510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_145.asset
+  artifactKey: Guid(439c52bd77bbb8f489fa0791c2031280) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_145.asset using Guid(439c52bd77bbb8f489fa0791c2031280) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '32276545ee79ed275fe66f302f42949f') in 0.011818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_128.asset
+  artifactKey: Guid(95fe4ac45a0705c44a2dc4ec16415753) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_128.asset using Guid(95fe4ac45a0705c44a2dc4ec16415753) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9e1e8b03871b033b65575406bc9a1918') in 0.008636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_174.asset
+  artifactKey: Guid(a0e9c0356b0bcfb408616ccca3648af4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_174.asset using Guid(a0e9c0356b0bcfb408616ccca3648af4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '53681e16c2bb98df3245083fa3dac50e') in 0.010097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_121.asset
+  artifactKey: Guid(b8aee58a718d4a14b803eb0568acd238) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_121.asset using Guid(b8aee58a718d4a14b803eb0568acd238) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd6641a789fc3d3d48258e0e01154ad21') in 0.012857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_117.asset
+  artifactKey: Guid(fb1fb109a47adcb4c86c5f767e95694a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_117.asset using Guid(fb1fb109a47adcb4c86c5f767e95694a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'eff0e706bc7989fb718b6be5f71e40ec') in 0.011415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_129.asset
+  artifactKey: Guid(5d3bf40b3ec75f0468b71ce2c98381f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_129.asset using Guid(5d3bf40b3ec75f0468b71ce2c98381f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'aa76518809aeea5d0d4fc8b74045027b') in 0.010668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_151.asset
+  artifactKey: Guid(511a96eb46940a54c835ad6e3b03ed99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_151.asset using Guid(511a96eb46940a54c835ad6e3b03ed99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '967e6d881354efb02594b1e058f27efe') in 0.011655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_177.asset
+  artifactKey: Guid(0ad0894a3e0301545aeacf69bb9eb3e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_177.asset using Guid(0ad0894a3e0301545aeacf69bb9eb3e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '41bbff99e43173e8ae3770d066637b13') in 0.011192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_142.asset
+  artifactKey: Guid(d65d359827c0e8347904692b0b96109e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_142.asset using Guid(d65d359827c0e8347904692b0b96109e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e67770ba1ad94c81c32f25b9a2fac30c') in 0.013158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_150.asset
+  artifactKey: Guid(a7f7778b61cae1640a59c4f5e976c8be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_150.asset using Guid(a7f7778b61cae1640a59c4f5e976c8be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c05a6cec2259d3cc472cc0ce38daa4c8') in 0.013305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_163.asset
+  artifactKey: Guid(4ae097d2ef85f0e459e35a5dcbf627d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_163.asset using Guid(4ae097d2ef85f0e459e35a5dcbf627d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6c0a419b708bdb288eee56a02428f523') in 0.011863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_167.asset
+  artifactKey: Guid(7e1f5557d9ef3d246bb4aeb7258c439c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_167.asset using Guid(7e1f5557d9ef3d246bb4aeb7258c439c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ee1f09ea35a3f8ee76307ce8f3225f7b') in 0.012574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_158.asset
+  artifactKey: Guid(b16892e03c9709a4dacc8453a0146c30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_158.asset using Guid(b16892e03c9709a4dacc8453a0146c30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a626c126f5cc1e651b2fea7e78079bad') in 0.011533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_166.asset
+  artifactKey: Guid(11742e57206170846ad8d332be06e9e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_166.asset using Guid(11742e57206170846ad8d332be06e9e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e383e6e864220741781dc21b7b1dac89') in 0.011845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_173.asset
+  artifactKey: Guid(f619f61d179f95c48bdc9bfb3cc411cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_173.asset using Guid(f619f61d179f95c48bdc9bfb3cc411cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7eff2bec233d575020040f8d94e387f0') in 0.011513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_127.asset
+  artifactKey: Guid(8c3cbf61a3326b04da6b458af5f5c6e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_127.asset using Guid(8c3cbf61a3326b04da6b458af5f5c6e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e2e6c936cf18f4b7de018111d5438174') in 0.011712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_114.asset
+  artifactKey: Guid(000ab14a869cd4449bb1ee6e6bc59840) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_114.asset using Guid(000ab14a869cd4449bb1ee6e6bc59840) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '554073e5f034e9db1ffb7709126f8f71') in 0.013012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_149.asset
+  artifactKey: Guid(045719e10a9165c478dfe83bcbaa4071) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_149.asset using Guid(045719e10a9165c478dfe83bcbaa4071) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '74938beffb80844f033f816c279f951b') in 0.012712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_125.asset
+  artifactKey: Guid(711b554eb4397534195d38d1b7a1d2ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_125.asset using Guid(711b554eb4397534195d38d1b7a1d2ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '14e75d1bce9e1210c05addf34f0dc770') in 0.010505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_140.asset
+  artifactKey: Guid(94eae31d0255d054782d7b210f24e07b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_140.asset using Guid(94eae31d0255d054782d7b210f24e07b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c9f22031678394117a859f3edbadb050') in 0.012690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/Gold_24.png
+  artifactKey: Guid(efb629b40cc31204faae7a161c115326) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/Gold_24.png using Guid(efb629b40cc31204faae7a161c115326) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fd7ca3925a4e4822db8a01bb29245b9a') in 0.020448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0049.png
+  artifactKey: Guid(98a4c53bc915edb4da9cb7d4715fe517) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0049.png using Guid(98a4c53bc915edb4da9cb7d4715fe517) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b946da78b4221ff384a1d2e1aafd370d') in 0.020096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Free Fire Kill Sound Effect_Jxo6nj-y4HQ (mp3cut.net).mp3
+  artifactKey: Guid(05292fe2a8bf32c43a2c3cac51548611) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Free Fire Kill Sound Effect_Jxo6nj-y4HQ (mp3cut.net).mp3 using Guid(05292fe2a8bf32c43a2c3cac51548611) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '48251cac586a1d188ac66c429cdefe50') in 0.034831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/Gold_30.png
+  artifactKey: Guid(1fb3db3f5e91a444d98686150c6496ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/Gold_30.png using Guid(1fb3db3f5e91a444d98686150c6496ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f1fc10f53a4cafa1573a3285d46805b2') in 0.021784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '70a53e6f2d7f924db2b68ff21789a0fa') in 0.010818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0031.png
+  artifactKey: Guid(579f4d4289cfb324eb4398deee377a3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0031.png using Guid(579f4d4289cfb324eb4398deee377a3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ef32a3e29786f2821497b10129ec21f7') in 0.023124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_113.asset
+  artifactKey: Guid(507013f6edec25e49ae7372863d59083) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_113.asset using Guid(507013f6edec25e49ae7372863d59083) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '39556fdfde312b5916c4f977aa636144') in 0.011505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/Gold_23.png
+  artifactKey: Guid(5096c4696842ad74b9ef80df4a1d82cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/Gold_23.png using Guid(5096c4696842ad74b9ef80df4a1d82cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c0a8138eb72e1bdfce9ef721e4b36e34') in 0.022988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0063.png
+  artifactKey: Guid(353f29a39bd611743a7754cf78826ca7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Coins/GEM CLUSTER 10 - TURQUOISE - 0063.png using Guid(353f29a39bd611743a7754cf78826ca7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fee644808370b6c9d5c0f1191b44a4b4') in 0.018264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.042762 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_181.asset
+  artifactKey: Guid(a9fd3d0c78a69a9479f795b8e9489550) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_181.asset using Guid(a9fd3d0c78a69a9479f795b8e9489550) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '480641e17af5cb373e9bf0910f6b09e5') in 0.012856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_24.asset
+  artifactKey: Guid(3bd5f2eea3924424db2f208cd8e65b27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_24.asset using Guid(3bd5f2eea3924424db2f208cd8e65b27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1325e6f288e1a2fd78e6f4ee8c6d724f') in 0.011791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_39.asset
+  artifactKey: Guid(3292a7ca342fefc418b47f2095d7479c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_39.asset using Guid(3292a7ca342fefc418b47f2095d7479c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7073f84f4a3565a5927ce0e272d07e42') in 0.011305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_49.asset
+  artifactKey: Guid(e67901a03ced039428f3f28b36ebbd7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_49.asset using Guid(e67901a03ced039428f3f28b36ebbd7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3f86f5e3f25cd5e01f96de98650a5d42') in 0.011356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_56.asset
+  artifactKey: Guid(8f78974d4d40b724c888d16469a3c935) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_56.asset using Guid(8f78974d4d40b724c888d16469a3c935) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '632c78571282622052be8680a1ea83a0') in 0.011887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_52.asset
+  artifactKey: Guid(6af8aae2dfb44b44285f8f81ad667a8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_52.asset using Guid(6af8aae2dfb44b44285f8f81ad667a8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e35807ebfa1f3d6977ffc61d41dd725f') in 0.010832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_37.asset
+  artifactKey: Guid(137be85f44afe424cad9bd2027b5e186) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_37.asset using Guid(137be85f44afe424cad9bd2027b5e186) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cbaeaa462406a2645450072ba732de4c') in 0.011629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_41.asset
+  artifactKey: Guid(9b9c3f8b16829834082169ca5bb30a5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_41.asset using Guid(9b9c3f8b16829834082169ca5bb30a5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4385f4db29b6513c1f89f035f5e306a0') in 0.012980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_45.asset
+  artifactKey: Guid(884818f8edebbc647a4045dd08c42729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_45.asset using Guid(884818f8edebbc647a4045dd08c42729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9fe8e3c9dba6ee9b1874948ac4632b16') in 0.010879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_57.asset
+  artifactKey: Guid(4473451739b65f5448cd553dad6d023d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_57.asset using Guid(4473451739b65f5448cd553dad6d023d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0b5aa80bfb217475e5ae2c78b1e7e0b4') in 0.011491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_84.asset
+  artifactKey: Guid(ca1a6ac0843395446a96e6d427d35210) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_84.asset using Guid(ca1a6ac0843395446a96e6d427d35210) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7a914e14a67b11e1f692bde084e8295b') in 0.011255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_30.asset
+  artifactKey: Guid(ef6bec4040593084ca7da3db83f3af99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_30.asset using Guid(ef6bec4040593084ca7da3db83f3af99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '16305a5e32f5794226f03ec918f4cc17') in 0.012351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_32.asset
+  artifactKey: Guid(194bd7f317a3e9f4caf6f7692f8a84fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_32.asset using Guid(194bd7f317a3e9f4caf6f7692f8a84fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b9f6ece260e86f448a224d3db2c9c938') in 0.012269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_96.asset
+  artifactKey: Guid(478afb7a43229df4790ba23c7eaca8d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_96.asset using Guid(478afb7a43229df4790ba23c7eaca8d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e3da87ec8f9687d22c6ee26e0ef8ba16') in 0.011813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_67.asset
+  artifactKey: Guid(54aa9a7df934dac4a9333a34babd2d75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_67.asset using Guid(54aa9a7df934dac4a9333a34babd2d75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1bc7a02080631666dfd116b585b983b6') in 0.012519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_77.asset
+  artifactKey: Guid(45a68896b7bf8fc418b7d069bc026021) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_77.asset using Guid(45a68896b7bf8fc418b7d069bc026021) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '07c6b357c1ae4ee57d7262a8257d8547') in 0.011626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_8.asset
+  artifactKey: Guid(85757def341aa134990386059747ee32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_8.asset using Guid(85757def341aa134990386059747ee32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd7671b12edaa1348ff35a0932bc456fa') in 0.012139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_55.asset
+  artifactKey: Guid(cd70e87e822adf9499de81de2345cfd1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_55.asset using Guid(cd70e87e822adf9499de81de2345cfd1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6e5b0d4754f24c60365a81593a10bd0b') in 0.012699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_53.asset
+  artifactKey: Guid(b7c41dc57174fed439b6f842c04d0d26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_53.asset using Guid(b7c41dc57174fed439b6f842c04d0d26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd468e31885e0bcaa9b6c121684e070e2') in 0.010826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_80.asset
+  artifactKey: Guid(fd51b468520107e478b0fcaa4211d780) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_80.asset using Guid(fd51b468520107e478b0fcaa4211d780) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5f0643f068961c560c6655084b17e1a7') in 0.011916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_35.asset
+  artifactKey: Guid(66cea357ecb236146aa057549d640a7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_35.asset using Guid(66cea357ecb236146aa057549d640a7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7300438446edfe9dc22492316ad4145c') in 0.011763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_33.asset
+  artifactKey: Guid(0c593d09bfc064545814278e31b90a62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_33.asset using Guid(0c593d09bfc064545814278e31b90a62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3c9a0f37e98e7546c4d64c9c08ff5b43') in 0.012174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_183.asset
+  artifactKey: Guid(ca23392fbf493cc4987370c855e33018) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_183.asset using Guid(ca23392fbf493cc4987370c855e33018) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7d148fc7cd38c608a16eabed79dcb706') in 0.010446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_34.asset
+  artifactKey: Guid(439889791d526b54dbd33c594cdb2bf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_34.asset using Guid(439889791d526b54dbd33c594cdb2bf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '186e38869b2ca4f175186f3015d9671a') in 0.011364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_99.asset
+  artifactKey: Guid(1194f9b4da2814d43aded45a6f5c29cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_99.asset using Guid(1194f9b4da2814d43aded45a6f5c29cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '146f74af61d320d6ad7c7abc57042f48') in 0.009582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_26.asset
+  artifactKey: Guid(4bff3b257a87c7c4f8a66198ea9a8d51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_26.asset using Guid(4bff3b257a87c7c4f8a66198ea9a8d51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bbb0323b3136e07bea1e46ca8862505d') in 0.011304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_21.asset
+  artifactKey: Guid(4e0609c12fee77a4089e24c2b3bafa3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_21.asset using Guid(4e0609c12fee77a4089e24c2b3bafa3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '44725d442861ceca6d72e3bd9dee9884') in 0.010432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_31.asset
+  artifactKey: Guid(337b534982ca3ed428d40825c8866c28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_31.asset using Guid(337b534982ca3ed428d40825c8866c28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f2ff92e6f58d14463d5606e4e84c47ce') in 0.010347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_64.asset
+  artifactKey: Guid(a2665c5a25d24b642be13fd7a52bccc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_64.asset using Guid(a2665c5a25d24b642be13fd7a52bccc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '83cc43e69ed83a5c0b1a5e9d2570042d') in 0.011554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_184.asset
+  artifactKey: Guid(ee8025f7099fe8b4dbf8f5b80ed224f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_184.asset using Guid(ee8025f7099fe8b4dbf8f5b80ed224f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4a1a7901608048d9345aaafe39ec40cb') in 0.011948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_6.asset
+  artifactKey: Guid(f057d2095cc704a4aaf4ff48010b7cc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_6.asset using Guid(f057d2095cc704a4aaf4ff48010b7cc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c56c300d8824d16d647a8a0a0523b309') in 0.010087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_51.asset
+  artifactKey: Guid(6367b8f118e5b724cbf39fa85e73456c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_51.asset using Guid(6367b8f118e5b724cbf39fa85e73456c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f512375d5b24ecc5ae3c38e8c853b751') in 0.011867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_66.asset
+  artifactKey: Guid(43bf08ccb53d8194097c75d8ac5eeea2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_66.asset using Guid(43bf08ccb53d8194097c75d8ac5eeea2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '033d5899fa859c4f6fc62f1ca72a5f6a') in 0.010203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plataforma 2D/Cenário/NewTiles/Overworld_54.asset
+  artifactKey: Guid(fa540159658688049b16bdfc0dea2aa2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/NewTiles/Overworld_54.asset using Guid(fa540159658688049b16bdfc0dea2aa2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1ec1595d590c3fd389aa62dd561f7c1b') in 0.011851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.144529 seconds.
+  path: Assets/Plataforma 2D/Cenário/Past/13.asset
+  artifactKey: Guid(94720d5fe7c7ba14fb25b73c87e49bb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Past/13.asset using Guid(94720d5fe7c7ba14fb25b73c87e49bb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '39a182836e4cb97297241d0b9186e457') in 0.012950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plataforma 2D/Cenário/Past/39.asset
+  artifactKey: Guid(b131f55004dfd7e43a46fa7fd57b07a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Past/39.asset using Guid(b131f55004dfd7e43a46fa7fd57b07a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3b80d572190b0e73370f1a4399482043') in 0.011602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plataforma 2D/Cenário/TileSets/Bush (3).asset
+  artifactKey: Guid(24fa3bd384766da4d938ac7b87e3b6bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/TileSets/Bush (3).asset using Guid(24fa3bd384766da4d938ac7b87e3b6bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f2376f3fe6d015edf1d645b9dd245fe8') in 0.015702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plataforma 2D/Cenário/Past/Dungeon Tile Set_21.asset
+  artifactKey: Guid(9fb1ba605697ec8409cb4ba2a99d7606) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Past/Dungeon Tile Set_21.asset using Guid(9fb1ba605697ec8409cb4ba2a99d7606) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd8775d09be73eb09dc74995fb74c2c46') in 0.011235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plataforma 2D/Cenário/Past/28.asset
+  artifactKey: Guid(2eda5dfabe7ddf94a846a88621ae550a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Past/28.asset using Guid(2eda5dfabe7ddf94a846a88621ae550a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c2877d87c2fef755cf9f3c342349a472') in 0.010393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Plataforma 2D/Cenário/TileSets/13.asset
+  artifactKey: Guid(eaf3da1daa0e9f848b215e0da0a1b298) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/TileSets/13.asset using Guid(eaf3da1daa0e9f848b215e0da0a1b298) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9df390837806d79cfc7cf887be79ddb6') in 0.009059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plataforma 2D/Cenário/Past/Dungeon Tile Set_27.asset
+  artifactKey: Guid(9722c50d59737f248b026d8f50aa7e13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Past/Dungeon Tile Set_27.asset using Guid(9722c50d59737f248b026d8f50aa7e13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e542cf409d62763e5ec1e5d0aa709591') in 0.010959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plataforma 2D/Cenário/TileSets/Crate.asset
+  artifactKey: Guid(b64856de0b016044e82e7a3101f7c277) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/TileSets/Crate.asset using Guid(b64856de0b016044e82e7a3101f7c277) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f7402a24b180428117bd0984333d5844') in 0.017160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Plataforma 2D/Cenário/Past/9.asset
+  artifactKey: Guid(48262987cae78da42901f869dad14789) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Past/9.asset using Guid(48262987cae78da42901f869dad14789) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4992673d21e74de09cd5646c334e5706') in 0.010259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plataforma 2D/Cenário/TileSets/6.asset
+  artifactKey: Guid(780cece61fa946546b29b6de65d5e452) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/TileSets/6.asset using Guid(780cece61fa946546b29b6de65d5e452) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1d7e62919648b3783384b61efa5b12e5') in 0.019459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Plataforma 2D/Cenário/TileSets/2.asset
+  artifactKey: Guid(d1921e7840a0bd6418cd89b30edd5dfc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/TileSets/2.asset using Guid(d1921e7840a0bd6418cd89b30edd5dfc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9f06e5f6d21c9ae8654ec0ff45098fe7') in 0.010445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Plataforma 2D/Cenário/Tiles/8.png
+  artifactKey: Guid(14bd2e8bdd03fdf46a4105d625c2d852) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Tiles/8.png using Guid(14bd2e8bdd03fdf46a4105d625c2d852) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f6ede787bd8fc6c70e0b393b86d3aa7b') in 0.020807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plataforma 2D/Cenário/Past/Dungeon Tile Set_17.asset
+  artifactKey: Guid(500b720181ee6304fbd231a36c6373ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Past/Dungeon Tile Set_17.asset using Guid(500b720181ee6304fbd231a36c6373ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7a12bad8531e3906bc78cccda6a14e1d') in 0.012224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plataforma 2D/Cenário/Past/Dungeon Tile Set_23.asset
+  artifactKey: Guid(251583a2d7ab2c84dba446472385a017) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Past/Dungeon Tile Set_23.asset using Guid(251583a2d7ab2c84dba446472385a017) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ef662ae02a8e9e44ae95f313c2490ecc') in 0.012085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plataforma 2D/Cenário/TileSets/Graud.prefab
+  artifactKey: Guid(69e3b34f38918e444afa3721180ebf54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/TileSets/Graud.prefab using Guid(69e3b34f38918e444afa3721180ebf54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '588f4d4d5ca49bed05e5116c52a1e05d') in 0.010296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plataforma 2D/Cenário/Past/42.asset
+  artifactKey: Guid(99d4bfc098cbc5c4c8ab971f8357858d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Past/42.asset using Guid(99d4bfc098cbc5c4c8ab971f8357858d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ce89b5114c17dcfde118e8c76fa5d550') in 0.009132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Plataforma 2D/Cenário/Tiles/12.png
+  artifactKey: Guid(79f873a0ddcb02741ad260114ac6c070) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Tiles/12.png using Guid(79f873a0ddcb02741ad260114ac6c070) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6bacd4c4ac11452769f434260483b0fe') in 0.014209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plataforma 2D/Cenário/Tiles/10.png
+  artifactKey: Guid(0bfb87f477367324196cb80ce83e0daa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Tiles/10.png using Guid(0bfb87f477367324196cb80ce83e0daa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fc46a303d76b898451a23651a4f170fa') in 0.020976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plataforma 2D/Cenário/TileSets/5.asset
+  artifactKey: Guid(46b80e0fc4b44e748859e703f87c1124) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/TileSets/5.asset using Guid(46b80e0fc4b44e748859e703f87c1124) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cec5c4093f53220b8f3161927cb0aba4') in 0.010277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plataforma 2D/Cenário/Past/46.asset
+  artifactKey: Guid(59f89166d3b652c4b9e1a6a7584f6a31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Past/46.asset using Guid(59f89166d3b652c4b9e1a6a7584f6a31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f7bdcb714da28c9afa7eadd2fd1e8aea') in 0.011856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plataforma 2D/Cenário/Past/Dungeon Tile Set_28.asset
+  artifactKey: Guid(190eddf1cf811ab42a2800fbce99fd49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Past/Dungeon Tile Set_28.asset using Guid(190eddf1cf811ab42a2800fbce99fd49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd2e82ebf9cec558aedd521df5379144e') in 0.012556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plataforma 2D/Cenário/Tiles/9.png
+  artifactKey: Guid(c4eb06d5820b5954cbd82253ca600b82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Tiles/9.png using Guid(c4eb06d5820b5954cbd82253ca600b82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'efdb40fa4b163b9d8783cfcd909464fb') in 0.018967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plataforma 2D/Sounds/Music/Pulsar.wav
+  artifactKey: Guid(ca5e2f04488396647b6e998097756820) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Sounds/Music/Pulsar.wav using Guid(ca5e2f04488396647b6e998097756820) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6fe3a2f60262e0b5216366d0f4d18890') in 0.066139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plataforma 2D/Cenário/Past/3.asset
+  artifactKey: Guid(4af59d6618e474f4d92b99c303b9669b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Past/3.asset using Guid(4af59d6618e474f4d92b99c303b9669b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'eeb2aed393b48df7ba0197e924b2891b') in 0.014012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plataforma 2D/Cenário/BG/Materials/Cave.mat
+  artifactKey: Guid(6a577f7386c9fd243915e1490364f19a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/BG/Materials/Cave.mat using Guid(6a577f7386c9fd243915e1490364f19a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '89746ce5e600d315419fd8630a17b463') in 0.039785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plataforma 2D/Cenário/Past/Dugeon.prefab
+  artifactKey: Guid(d4426fe7f492e2e4c9a86ab5f619ba77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Past/Dugeon.prefab using Guid(d4426fe7f492e2e4c9a86ab5f619ba77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '84d22ec450635d87e72a324a6af8994e') in 0.011650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plataforma 2D/Cenário/Past/27.asset
+  artifactKey: Guid(e61def8f1ecf0c54b8410ecece85b4b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Past/27.asset using Guid(e61def8f1ecf0c54b8410ecece85b4b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '268d35632e1479d21a8c2166415cca58') in 0.011834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plataforma 2D/Cenário/Tiles/13.png
+  artifactKey: Guid(242dbe580cd487d4a8f7f5d23c0c8f08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Tiles/13.png using Guid(242dbe580cd487d4a8f7f5d23c0c8f08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5b31e9d0fad4ab16656a38d78699ea38') in 0.017499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plataforma 2D/Cenário/Past/19.asset
+  artifactKey: Guid(e42be3b2d66ed86468515f34ea6c07c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Past/19.asset using Guid(e42be3b2d66ed86468515f34ea6c07c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '48a5dc04c2580cfa3c3a053d5072581b') in 0.011217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plataforma 2D/Cenário/Past/40.asset
+  artifactKey: Guid(d58a581dc0b3518449e0e51adb39329b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Past/40.asset using Guid(d58a581dc0b3518449e0e51adb39329b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'eeae678176c3aebd76067deaee838692') in 0.011831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plataforma 2D/Cenário/Past/44.asset
+  artifactKey: Guid(075b0eea02b5bfe47b094aeda26c9e08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Past/44.asset using Guid(075b0eea02b5bfe47b094aeda26c9e08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a5ce197ffc3cfc24f45206822a2fb332') in 0.008633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plataforma 2D/Cenário/Past/8.asset
+  artifactKey: Guid(f363c7f83d848a44c8699ac3a650d837) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Past/8.asset using Guid(f363c7f83d848a44c8699ac3a650d837) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '12d07141a8b1fabc0e24e8499476d658') in 0.010107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plataforma 2D/Cenário/Past/26.asset
+  artifactKey: Guid(70a7097ecb56e9e46a5afe94f8f84c39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Past/26.asset using Guid(70a7097ecb56e9e46a5afe94f8f84c39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7e77ded9fd17033ae46fbad960342be4') in 0.011996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plataforma 2D/Cenário/TileSets/Tree_1.asset
+  artifactKey: Guid(f4c193d3dc9fdc947bf3682259ce952d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/TileSets/Tree_1.asset using Guid(f4c193d3dc9fdc947bf3682259ce952d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0ba01b1c1bcfb5beb4d263f0ef462f8a') in 0.014163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plataforma 2D/Cenário/Tiles/4.png
+  artifactKey: Guid(74f442f1b97ed3a4b81b2b6823fdb283) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Tiles/4.png using Guid(74f442f1b97ed3a4b81b2b6823fdb283) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c8b38933eef8b5559f7d387bcdce9be1') in 0.020359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Plataforma 2D/Cenário/TileSets/1.asset
+  artifactKey: Guid(77642476d1ad62046a75ed1486ab72a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/TileSets/1.asset using Guid(77642476d1ad62046a75ed1486ab72a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '478b9b99e5e0196577c6837770259f58') in 0.010601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plataforma 2D/Cenário/Past/31.asset
+  artifactKey: Guid(81f26a8e5ea1e90419cb538905ae50fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Past/31.asset using Guid(81f26a8e5ea1e90419cb538905ae50fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ec73087a8773ab91594e640b7109bd4f') in 0.012200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Plataforma 2D/Cenário/Past/4.asset
+  artifactKey: Guid(4a719165be7f7234199b0cb74b059583) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Past/4.asset using Guid(4a719165be7f7234199b0cb74b059583) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a46f77c007162c1701caed74bb8a7d39') in 0.012215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plataforma 2D/Cenário/Tiles/3.png
+  artifactKey: Guid(db91bc4323c5cfd4ea73eee1e446be86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Tiles/3.png using Guid(db91bc4323c5cfd4ea73eee1e446be86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd22eee82daa5424b52be06b0ef00c1cf') in 0.022886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plataforma 2D/Cenário/TileSets/Mushroom_2.asset
+  artifactKey: Guid(d715756799dfa704085c6c69cd6ac874) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/TileSets/Mushroom_2.asset using Guid(d715756799dfa704085c6c69cd6ac874) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3aaf334d7ba129c0b1cd09a3440c41ea') in 0.015813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plataforma 2D/Sounds/Music/game_over_bad_chest.wav
+  artifactKey: Guid(e0e77399678cc2049b043893610ff446) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Sounds/Music/game_over_bad_chest.wav using Guid(e0e77399678cc2049b043893610ff446) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7f16c27b3449fc7c57995709006fff29') in 0.065001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plataforma 2D/Cenário/Past/29.asset
+  artifactKey: Guid(dc9b36e65a95df641a5d163588bfbcf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Past/29.asset using Guid(dc9b36e65a95df641a5d163588bfbcf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9cb2ec48ffa2f8aa4924aec28c9307fb') in 0.011297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plataforma 2D/Cenário/Past/32.asset
+  artifactKey: Guid(fce83f7e4502a4242a5305cc08e1050c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Past/32.asset using Guid(fce83f7e4502a4242a5305cc08e1050c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '818a1295f57cce561e7e53a89ecec5e6') in 0.011241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '293eaf2951a382c2c61b1b9ff509ef7b') in 0.024040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Plataforma 2D/Sounds/SoundEffects/SFX_Jump_44.wav
+  artifactKey: Guid(9ac318fdea5e6204db8a01094b98e4a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Sounds/SoundEffects/SFX_Jump_44.wav using Guid(9ac318fdea5e6204db8a01094b98e4a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c5dbdf6ea78de208ab4e97aa959f5b76') in 0.032970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f699b2e6057d7a7ad9ce8e94cc50f538') in 0.011378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Plataforma 2D/Cenário/Past/2.asset
+  artifactKey: Guid(f1362fb64c9782c4293c107024f0c07e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Past/2.asset using Guid(f1362fb64c9782c4293c107024f0c07e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4205606428e4ba84ef11f9e14d6f89cf') in 0.008677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plataforma 2D/Cenário/Past/23.asset
+  artifactKey: Guid(584a2d2ea342e2a4ebb70351bd155be9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Past/23.asset using Guid(584a2d2ea342e2a4ebb70351bd155be9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8327cb2cae34bcd1c3732a97707c5558') in 0.012043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plataforma 2D/Cenário/Tiles/14.png
+  artifactKey: Guid(a5dbc06e2bcd3f94887c7f74a3b563a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plataforma 2D/Cenário/Tiles/14.png using Guid(a5dbc06e2bcd3f94887c7f74a3b563a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '93f07d433d393d77657484773039a856') in 0.016632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: A opera��o de E/S foi anulada devido a uma sa�da de thread ou a uma requisi��o de aplicativo.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
